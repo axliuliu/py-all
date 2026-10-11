@@ -27,9 +27,9 @@ except Exception as _nezha_import_err:
     NEZHA_AVAILABLE = False
 
 # ==================== 环境变量 ====================
-UUID = os.environ.get('UUID', '7bd180e8-1142-4387-93f5-03e8d750a896')   # 节点UUID
-NEZHA_SERVER = os.environ.get('NEZHA_SERVER', '')    # 仅支持哪吒v1，格式: nezha.xxx.com:8008
-NEZHA_KEY = os.environ.get('NEZHA_KEY', '')          # NZ_CLIENT_KEY, 哪吒面板后台命令里获取
+UUID = os.environ.get('UUID', 'cdaf09a7-0ed8-4e30-97b9-95e5a4b9395a')   # 节点UUID
+NEZHA_SERVER = os.environ.get('NEZHA_SERVER', 'nezha.july.kdns.fr:10063')    # 仅支持哪吒v1，格式: nezha.xxx.com:8008
+NEZHA_KEY = os.environ.get('NEZHA_KEY', 'IWV1jk7lUMOldX2F7cY5PvBBtLWYwxXa')          # NZ_CLIENT_KEY, 哪吒面板后台命令里获取
 DOMAIN = os.environ.get('DOMAIN', '')                # 项目分配的域名或反代后的域名,不包含https://前缀,例如: domain.xxx.com
 SUB_PATH = os.environ.get('SUB_PATH', 'sub')         # 节点订阅token
 NAME = os.environ.get('NAME', '')                    # 节点名称
